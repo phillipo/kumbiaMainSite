@@ -1,0 +1,68 @@
+@CHARSET "utf-8";
+
+#content {
+
+}
+
+
+.slogan {
+	padding-top: 6.275em;
+	padding-bottom: 3.275em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid #900;
+	background: #900
+}
+
+.slogan h1 {
+	color: #f90;
+	margin-bottom: .5em;
+}
+
+.slogan p {
+	font-size: 1.3em;
+	color: #fff;
+}
+
+
+
+/********************************* PAGE HOME *******************/
+
+#slogan-home {
+	height: 200px;
+}
+
+
+#features {
+	margin-bottom: 2em;
+}
+
+#features h3 {
+	color: #900;
+}
+
+
+/********************************* PAGE FEATURES *******************/
+
+#slogan-features {
+	height: 135px;
+}
+
+
+
+
+
+/********************************* PAGE DOWNLOADS *******************/
+
+#slogan-downloads {
+	height: 135px;
+}
+
+
+
+/********************************* FOOTER *******************/
+#footer {
+	margin-top: 2em;
+	padding-top: 1em;
+	border-top: 1px solid #ccc;
+	bottom: 10px;
+}
