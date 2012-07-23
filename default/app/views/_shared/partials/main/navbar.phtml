@@ -30,17 +30,26 @@ Created: 27/06/2012 14:14:29
 						<li class="divider"><!-- DIVIDER --></li>
 						<li class="nav-header">0.5</li>
 						<li><?php echo Html::link('descargas', 'Documentación') ?></li>
+						<li class="divider"><!-- DIVIDER --></li>
+						<li><a href="http://wiki.kumbiaphp.com">Wiki</a></li>	
 					</ul>
 				
 				
 				</li>
+				
+				<li class="dropdown">
+					<?php echo Html::link('#', 'Soporte','class="dropdown-toggle" data-toggle="dropdown"') ?>
+					<ul class="dropdown-menu">
+						<li><?php echo Html::link('irc', 'IRC') ?></li>					
+						<li><a href="http://foro.kumbiaphp.com">Foro</a></li>
+						<li><a href="https://groups.google.com/forum/?fromgroups#!forum/kumbia">Grupo Google</a></li>
+					</ul>	
+				</li>				
+				
 				<li class="dropdown">
 					<?php echo Html::link('#', 'Comunidad','class="dropdown-toggle" data-toggle="dropdown"') ?>
 					<ul class="dropdown-menu">
-						<li><?php echo Html::link('irc', 'IRC') ?></li>
 						<li><a href="http://wiki.kumbiaphp.com">Wiki</a></li>						
-						<li><a href="http://foro.kumbiaphp.com">Foro</a></li>
-						<li><a href="https://groups.google.com/forum/?fromgroups#!forum/kumbia">Grupo Google</a></li>
 					</ul>	
 				</li>
 				
