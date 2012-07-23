@@ -5,10 +5,13 @@
 }
 
 
+
+
 .slogan {
 	padding-top: 6.275em;
 	padding-bottom: 3.275em;
 	margin-bottom: 2em;
+	margin-top: 0;
 	border-bottom: 1px solid #900;
 	background: #900
 }
@@ -28,7 +31,7 @@
 /********************************* PAGE HOME *******************/
 
 #slogan-home {
-	height: 200px;
+	min-height: 200px;
 }
 
 
@@ -54,15 +57,53 @@
 /********************************* PAGE DOWNLOADS *******************/
 
 #slogan-downloads {
-	height: 135px;
 }
 
+/* Listado de descargas */
+
+.download-package {
+	margin-bottom: 2em;
+}
+
+ .download-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+ }
+ 
+ .download-list li {
+ 	display: block;
+ 	line-height: 2.4;
+ 	height: 2.4em;
+ 	border-bottom: 1px solid #ccc;
+ 	clear: both;
+}
+
+.download-name {
+	width: 200px;
+	display: block;
+	color: #900;
+	float: left;
+}
+
+.download-action {
+	width: 100px;
+	display: block;
+	float: right;
+	color: #000;
+	text-align: right;
+}
+
+.download-action a {
+	color: #000;
+}
 
 
 /********************************* FOOTER *******************/
 #footer {
 	margin-top: 2em;
 	padding-top: 1em;
+	padding-bottom: 1em;
 	border-top: 1px solid #ccc;
-	bottom: 10px;
+	background: #efefef;
 }
