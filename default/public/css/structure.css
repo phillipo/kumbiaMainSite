@@ -4,7 +4,10 @@
 
 }
 
-
+#content h3 i.icon {
+	vertical-align: baseline;
+	margin-right: .5em;
+}
 
 
 .slogan {
